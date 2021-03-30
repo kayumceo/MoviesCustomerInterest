@@ -116,6 +116,6 @@ join #UnWatchedList_ActorScore d on a.FilmId=d.film_id
 END
 GO
 
-/***You can pass any customer name to get the top 5 movies suggestion***/
+/***User can pass any customer name to get the top 5 movies suggestion***/
 
 Execute  [dbo].[getCustomerMovieRecommend] "MARY SMITH"
